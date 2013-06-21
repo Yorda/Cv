@@ -5,53 +5,123 @@
    </title>
    <head>
       <style>
-         li{
+         body{
+            font-family: Century Gothic,arial,verdana,sans-serif;
          }
          .page{
             margin:auto;
             width:21cm;
             height:29.7cm;
             border:1px solid black;
+            border-radius:5px;
+            padding-top:1cm;
          }
-      .title{
-         color:white;
-         height:0.5cm;
-         width:12cm;
-         background-color:black;
-         text-align:center;
-         margin:auto;
-         font-size:0.4cm;
-      }
-      .name{
-         font-family:'Arial Black';
-         font-weight:bolder;
-         font-size:18px;
-      }
+         .title{
+            font-size:18px;
+            color:white;
+            /*width:12cm;*/
+            background-color:black;
+            text-align:center;
+            /*margin:auto;*/
+            font-weight:bolder;
+            padding:1px;
+            border-radius:5px;
+         }
+         .name{
+            font-size:22px;
+            font-weight:bolder;
+            padding-bottom:0.5cm;
+         }
+
+         .address{
+            font-size:14px;
+            font-weight:bolder;
+            line-height:30px;
+         }
+         .phone{
+            font-size:14px;
+            font-weight:bolder;
+         }
+         .email{
+            font-size:14px;
+            font-weight:bolder;
+         }
          .right{}
          .left{}
+         p{
+            font-size:14px;
+         }
       </style>
    </head>
    <body>
       <div class="page">
-         <div class="left" style="width:8cm;float:left;border-right:1px solid black">
-            <ul>
-               <li class="name">
-               Jean-Francois Tomasi
+         <div style="width:7.2cm;float:left;border-right:1px solid black;">
+            <table style="margin-left:0.2cm;width:100%">
+               <tr>
+                  <td>
+                     <img src="images/home.png" /> 
+                  </td>
+                  <td class="address">
+                     3 all&eacute; Emile Zola, 78570 Andr&eacute;sy 
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <img src="images/phone.png" /> 
+                  </td>
+                  <td class="address">
+                     06 98 41 02 38
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <img src="images/email.png" width="22" height="21" /> 
+                  </td>
+                  <td class="address">
+               <a href="mailto:jf.tomasi@gmail.com">jf.tomasi@gmail.com</a>
+                  </td>
+               </tr>
+               <caption class="name">
+                  Jean-Francois Tomasi
+               </caption>
+            </table>
+               
+         </div>
+         <div class="right" style="margin-left:7.3cm;">
+            <div class="title">
+               Profil
+            </div>
+            <p style="padding-left:5px;padding-right:5px;" >
+            D&eacute;veloppeur exp&eacute;riment&eacute; en langage et technologie Java, cela fait maintenant plusieurs...
+            </p>
+            <div class="title">
+               Comp&eacute;tence
+            </div>
+            <p style="padding-left:5px;padding-right:5px;" >
+            <ul style="font-size:14px;">
+               <li>Programmation:<br/>
+               Language Java et API moderne associ.......
                </li>
-               <li>
-               3 all&eacute; Emile Zola 
-               </li>
-               <li>
-               78570 Andrésy
-               </li>
-               <li>
-               06 98 41 02 38
+			   <li>Systeme:<br/>
+               Linux ....
                </li>
             </ul>
-         </div>
-         <div class="right" style="margin-left:8cm;">
-            <div class="title">
-               R&eacute;sum&eacute;
+            </p>
+			 <div class="title">
+               Exp&eacute;rience
+            </div>
+			 <p style="padding-left:5px;padding-right:5px;" >
+            <ul style="font-size:14px;">
+               <li>International Herald tribune<br/>
+			   Refonte ...
+               </li>
+			   <li>Keljob<br/>
+               Push SMS
+               </li>
+            </ul>
+            </p>
+			 <div class="title">
+              En plus
             </div>
          </div>
       </div>
